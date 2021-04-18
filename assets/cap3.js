@@ -9,4 +9,4 @@ const pot = (base, exp = 2) => {
     return out;
 }
 console.log(pot(4))
-console.log(pot(2,6))
+console.log(pot(2,6),menos(pot(3))==menos(9), pot(4,3))
